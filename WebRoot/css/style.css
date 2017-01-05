@@ -1,0 +1,507 @@
+body{
+  font-family: 'Lato', sans-serif;
+  background: url('../images/main-bg.jpg')repeat;
+  margin: 0 0;
+  padding: 0 0;
+}
+body a,a.slide-btn,a.more{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+body a:hover{
+	text-decoration:none;
+}
+input[type="button"],input[type="submit"],input[type="text"]{
+	font-family:"Microsoft YaHei";
+	-webkit-border-radius: 0.2em;
+	border: 0;
+	font-size:15px;
+	width: 350px;
+	height: 35px;
+	padding: 0.5em 0.5em;
+	margin: 0.2em 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;			   
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+button {
+    cursor: pointer;
+    width: 200px;
+    height: 44px;
+    text-decoration:none; 
+    padding: 0;
+    background: #ef4300;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #ff730e;
+    -moz-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+button:hover {
+    -moz-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.15) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.15) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.15) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+}
+a:link {
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+}
+a:active {
+text-decoration: none;
+}
+/*-------------------- header --------------------------*/
+.top-header{
+	background: url('../images/top-head.jpg')repeat-x;
+	min-height: 60px;
+}
+.mid-head{
+	background: url('../images/mid-head.png')repeat-x;
+	height: 45px;
+}
+.logo{
+	float:left;
+}
+.logo h1{
+	margin-top: 0.2em;
+}
+.logo h1 a{
+	font-family: 'Abel', sans-serif;
+	color: #fff;
+	font-size: 1.3em;
+}
+.logo h2{
+	margin-top: 0.5em;
+}
+.logo h2 a{
+	font-family: 'Abel', sans-serif;
+	color: #fff;
+	font-size: 1.0em;
+}
+.icon-data{
+	float:left;
+}
+.icon-data p,.icon-data p a{
+	font-size: 1.5em;
+	font-weight:500;
+	color: #FFFFFF;
+	margin:0.3em 1em;
+	font-family: 'Abel', sans-serif;
+	text-decoration:none;
+}
+.top-header ul li{
+	display:inline-block;
+	float:left;
+	list-style: none;
+}
+ul.top-login {
+	float: right;
+	margin-top: 1em;
+}
+.search-box {
+float: right;
+width: 250px;
+margin:1em 0;
+}
+.b-search{
+	position: relative;
+	border: 1px solid #C0BCBC;
+	padding: 0.6em 0;
+	background: #b7a69f;
+	width:99%;
+	height: 40px;
+	border-radius: 0.6em;
+	-webkit-border-radius: 0.6em;
+	-o-border-radius: 0.6em;
+	-moz-border-radius: 0.6em;
+}
+.b-search input[type="text"]{
+	width: 80%;
+	outline: none;
+	margin: -0.5em 0;
+	padding: 0em 0.6em;
+	font-size: 1.1em;
+	color: #6e6663;
+	position: relative;
+	border: none;
+	background: #b7a69f;
+}
+.b-search input[type="submit"]{
+	background: url(../images/search-icon.png) no-repeat 0px 2px ;
+	border: none;
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	outline: none;
+	top: 6px;
+	right: 2px;
+}
+span.menu{
+	display:none;
+}
+.top-nav{
+	text-align:left;
+	padding: 0.5em 0 0 0;
+}
+.top-nav ul{
+	margin:0;
+	padding:0;
+}
+.top-nav ul li{
+	display:inline-block;
+	margin-right:7px;
+}
+.top-nav ul li a{
+	padding: 0.5em 1em 1em 1em;
+	display:inline-block;
+	font-weight:400;
+	font-size:1.3em;
+	text-decoration:none;
+	color:#bcaca5;
+	font-family: 'Abel', sans-serif;
+	font-weight: bold;
+}
+.top-nav ul li.active,.top-nav ul li.active a{
+	color: #A23B12;
+	text-decoration: none;
+	background: url(../images/nav-bg.png)no-repeat;
+	background-size: initial;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	background-size:100% 100%;
+	font-weight: bold;
+}
+/*---------------***********----- Officia section -------------------*************-------*/
+.Officia-section{
+	padding: 2em 0;
+}
+.Officia-section-left{
+	float: left;
+	word-break:break-all; 
+	word-wrap:break-word;
+}
+/************登录遮盖层********************************/
+#hidebg { 
+	position:absolute;left:0px;top:0px; 
+    background-color:#000; 
+    width:100%;  /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/ 
+    filter:alpha(opacity=60);  /*设置透明度为60%*/ 
+    opacity:0.6;  /*非IE浏览器下设置透明度为60%*/ 
+    display:none; 
+    z-Index:2;
+} 
+#login{
+ 	display: none;  
+ 	position: absolute;  
+ 	top: 15%;  
+ 	left: 22%;  
+ 	width: 53%;  
+ 	height: 500px;   
+ 	border: 0;  
+ 	background-color: white;  
+ 	z-index:1002;  
+ 	overflow: auto;
+ 	-webkit-border-radius: 0.6em;
+}
+.login_top {
+	background: #FFE4B5;
+	height: 50px;
+	padding:1em 1em;
+}
+.login_top_text p {
+	float: left;
+	font-size:20px;
+	font-weight:bold;
+	color: #EE9572;
+}
+.login_top_exit p {
+	float: right;
+	font-size:10px;
+	font-weight:bold;
+	color: black;
+}
+.login_register {
+	height: 90%;
+	padding: 2em 4em;
+	background: #EED8AE;
+	color: #EEA2AD;
+}
+.login_register2 {
+	height: 90%;
+	padding: 2em 6em;
+	background: #FFE4C4;
+	color: #EEA2AD;
+}
+.login_register_text {
+	font-size:25px;
+	font-family:"Microsoft YaHei";
+}
+.login_register_username {
+	font-size:16px;
+	font-family:"Microsoft YaHei";
+	margin: 1.5em 0;
+}
+.register_button{
+	height: 35px;
+	width:360px;
+}
+.button_register{
+	background: #FFDAB9;
+	width: 160px;
+	color: #FFA07A;
+	border:0;
+	float: right;
+	margin :0.5em 0.5em;
+}
+.button_login{
+	background: #FFDAB9;
+	width: 160px;
+	color: #FFA07A;
+	border:0;
+	float: right;
+	margin: 0 0 0 0;
+}
+.forgetpwd {
+	margin :0.5em 0.5em;
+	font-size:20px;
+	color: red;
+}
+.user_img {
+	display:none;
+	margin:0.5em 1em;
+}
+.circleimg {
+	width:30px; 
+	height:30px; 
+	border-radius:50px;
+}
+#firstmenu li ul {
+	display:none;
+}
+#firstmenu li ul li {
+	float:none;
+}
+*html #firstmenu li ul li {
+	display:inline;
+}
+#firstmenu li ul a {
+	float:none;
+	height:32px;
+	line-height:32px;
+	padding:0 10px;
+	text-transform:capitalize;
+}
+.second-menu {
+	position:absolute;
+	width: 80px;
+	height: auto;
+	background: white;
+	color: balck;
+	font-family:Microsoft YaHei; 
+}
+/************主页面左边list表********************************/
+
+/*************主页面左边标签页简介********************************/
+.synopsis {
+	background-color: #E0EEEE;
+	height:auto;
+	-webkit-border-radius: 0.6em;
+	position :relative;
+	padding: 1em 1em;
+	font-family:Microsoft Yahei;
+	overflow:hidden;
+}
+.synopsis_title{
+	font-size:20px;
+}
+.synopsis_text {
+	margin: 0.8em 0 0 0;
+	height: auto;
+}
+/*************主页面右边********************************/
+.Officia-section-right{
+	float: right;
+	border-left: 1px;
+	overflow:hidden;
+}
+/*************主页面右边提问界面********************************/
+.askquestion {
+	display: none;
+	float: right;
+	border-left: 1px;
+	overflow:hidden;
+}
+/*************主页面右边登录api********************/
+.login-api {
+	background-color: #FFF5EE;
+	height: auto;
+	-webkit-border-radius: 0.4em;
+	padding: 0.5em 0.5em;
+}
+.login-api-text {
+	margin: 0.5em 0.5em;
+	font-family: Microsoft Yahei;
+}
+.button_qq {
+	background-color: #4876FF;
+	-webkit-border-radius: 0.4em;
+	width:94%;
+	height:40px;
+	margin: 0 0.5em 0.5em 0.5em;
+	font-family:Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif; 
+	text-decoration:none;
+	color: #FFFFFF;
+	border: 0;
+}
+.button_weibo {
+	background-color: red;
+	-webkit-border-radius: 0.4em;
+	width:94%;
+	height:40px;
+	margin: 0.5em 0.5em;
+	font-family:Microsoft YaHei; 
+	text-decoration:none; 
+	color: #FFFFFF;
+	border: 0;
+}
+.button_weixin {
+	background-color: #00CD00;
+	-webkit-border-radius: 0.4em;
+	width:94%;
+	height:40px;
+	margin: 0.5em 0.5em 0 0.5em;
+	font-family:Microsoft YaHei; 
+	text-decoration:none;
+	color: #FFFFFF;
+	border: 0;
+}
+/*************JAVA部分问答界面********************/
+.javamenu {
+	margin: 1em 0 0 0;
+	height: 40px;
+	padding-left:15px;
+}
+.javaquestion {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 0 2em 0 0;
+	width:200px;
+	float:left;
+}
+.javapart {
+	background:#EEE0E5;
+	float: left;
+	height: 800px;
+}
+.javadata {
+	height: auto;
+}
+.answernum {
+	background: green;
+	color: white;
+	float: left;
+	width:50px;
+	height:50px;
+	text-align:center;
+	padding:0.2em 0.2em;
+	font-family:Microsoft YaHei; 
+	margin: 0.8em 0.8em 0.8em 0;
+}
+.readnum {
+	background:white;
+	color:#D1D1D1;
+	float: left;
+	width:50px;
+	height:50px;
+	text-align:center;
+	padding:0.2em 0.2em;
+	font-family:Microsoft YaHei; 
+	margin: 0.8em 0.8em 0.8em 0;
+}
+.sectionpart {
+	float: left;
+	padding:0 0.2em 0.5em 0.2em;
+	font-family:Microsoft YaHei; 
+	margin: 0.8em 0.8em 0.8em 0;
+	font-size:16px;
+	word-break:break-all;
+}
+.sectionpart article{
+	font-size:13px;
+	margin: 0 0 0.8em 0;
+}
+/*************quizpage界面********************/
+.quizinput1 input[type="text"]{
+	height:60px;
+	width:100%;
+	font-size:20px;
+	background:#FAEBD7;
+}
+.textareaquiz {
+	height: 460px;
+	width:100%;
+	resize:none;
+	-webkit-border-radius: 0.2em;
+	font-size:20px;
+	font-family:"Microsoft YaHei";
+	background:#FAEBD7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
